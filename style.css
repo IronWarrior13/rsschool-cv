@@ -19,13 +19,12 @@ body{
 }
 
 .header{
-    background-color: #F8F9FC;
     border: 10px dotted;
-    width: 1220px;
     padding: 20px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #F8F9FC;
 }
 
 .header-img__avatar{
@@ -55,4 +54,24 @@ body{
 .header-nav__link{
     padding: 0 20px;
     line-height: 50px;   
+}
+
+.main-about{
+    text-align: center;
+}
+.main__title{
+    font-size: 64px;
+    text-decoration: underline;
+    color: #F8F9FC;
+}
+.about-information{
+    border: 10px dotted;
+    background-color: #F8F9FC;
+}
+.about-information__title{
+    font-size: 48px;
+    text-decoration: underline;
+}
+.about-information__text{
+    font-size: 24px;
 }
