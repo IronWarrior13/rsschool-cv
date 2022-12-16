@@ -154,3 +154,29 @@ body{
 .about-experiens__text{
     font-size: 24px;
 }
+
+.main-code{
+    margin: 35px 0;
+    padding-bottom: 20px;
+    border: 10px dotted;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #F8F9FC;
+}
+
+.code__title{
+    font-size: 64px;
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+}
+.code__wrapper{
+    margin: 0 auto;
+    padding: 20px;
+    width: 60%;
+    background-color: #000000;
+}
+.code__text{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(020, 200, 010);
+}
