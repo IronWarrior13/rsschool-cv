@@ -181,12 +181,7 @@ body{
     color: rgb(020, 200, 010);
 }
 
-.conteiner-coulum{
-    display: block;
-    flex-direction: row;
-}
-
-.language-coulum{
+.main-language{
     margin: 20px 0 0 0;
     border: 10px dotted;
     background-color: #F8F9FC;   
@@ -204,10 +199,47 @@ body{
 }
 
 .language__item{
-    padding: 5px 10px;
+    padding: 0 10px 5px 10px;
     margin: 0 20%;
 }
 
 .language__text{
     font-size: 32px;
+}
+
+.main-contact{
+    margin: 30px 0 0 0;
+    display: block;
+    flex-direction: row;
+    border: 10px dotted;
+    background-color: #F8F9FC;
+}
+
+.contact__title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 48px;
+}
+
+.contact__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.contact__item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact__img{
+    padding: 6px 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.contant__text{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 18px;
 }
