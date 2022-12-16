@@ -139,3 +139,18 @@ body{
 .about-education__text{
     font-size: 24px;
 }
+
+.about-experiens{
+    margin: 35px 0;
+    border: 10px dotted;
+    background-color: #F8F9FC;
+}
+
+.about-experiens__title{
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+.about-experiens__text{
+    font-size: 24px;
+}
