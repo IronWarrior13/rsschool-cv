@@ -39,6 +39,7 @@ body{
     align-items: center;
     list-style: none;
 }
+
 .header-nav__item{
     font-size: 24px;
     background: #000000;
@@ -46,11 +47,13 @@ body{
     border: 2px double #F8F9FC;
 
 }
+
 .header-nav__item:hover{
     background: #F8F9FC;
     color:#000000;
     border: 2px double #000000;
 }
+
 .header-nav__link{
     padding: 0 20px;
     line-height: 50px;   
@@ -59,19 +62,80 @@ body{
 .main-about{
     text-align: center;
 }
+
 .main__title{
     font-size: 64px;
     text-decoration: underline;
     color: #F8F9FC;
 }
+
 .about-information{
     border: 10px dotted;
     background-color: #F8F9FC;
 }
+
 .about-information__title{
     font-size: 48px;
     text-decoration: underline;
 }
+
 .about-information__text{
+    font-size: 24px;
+}
+
+.about-skills{
+    margin: 35px 0;
+    border: 10px dotted;
+    background-color: #F8F9FC;
+}
+
+.about-skills__title{
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+.about-skills__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.about-skills__item{
+    padding: 0 20px;
+}
+
+.skills__icon{
+    width: 100px;
+    height: 100px;
+}
+
+.about-skills__text{
+    font-size: 24px;
+}
+
+.about-education{
+    margin: 35px 0;
+    border: 10px dotted;
+    background-color: #F8F9FC;
+}
+
+.about-education__title{
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+.about-education__list{
+    display: block;
+    flex-direction: column;
+    list-style: none;
+    text-align: left;
+}
+
+.about-education__item{
+    padding: 10px 0;
+}
+
+.about-education__text{
     font-size: 24px;
 }
