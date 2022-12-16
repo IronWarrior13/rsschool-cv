@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="conteiner">
@@ -123,9 +125,9 @@
                 <h2 class="code__title">
                     Code
                 </h2>
-                <pre class="code__text">
-
-                    function pickIt(arr){
+                <div class="code__wrapper">
+                    <pre class="code__text">
+                        function pickIt(arr){
                         let odd=[],even=[];
                         for (i = 0; i < arr.length; i++){
                             arr[i]%2==1 ? odd.push(arr[i]) : even.push(arr[i]); 
@@ -133,6 +135,7 @@
                         return [odd,even];
                     }               
                 </pre>
+            </div>
             </div>
 
         </main>
