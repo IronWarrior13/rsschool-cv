@@ -164,7 +164,7 @@ body{
 }
 
 .code__title{
-    font-size: 64px;
+    font-size: 48px;
     text-align: center;
     text-decoration: underline;
     color: #000000;
@@ -179,4 +179,35 @@ body{
     text-align: left;
     font-size: 18px;
     color: rgb(020, 200, 010);
+}
+
+.conteiner-coulum{
+    display: block;
+    flex-direction: row;
+}
+
+.language-coulum{
+    margin: 20px 0 0 0;
+    border: 10px dotted;
+    background-color: #F8F9FC;   
+}
+
+.language__title{
+    text-align: center;
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+.language__list{
+    display: block;
+    flex-direction: column;
+}
+
+.language__item{
+    padding: 5px 10px;
+    margin: 0 20%;
+}
+
+.language__text{
+    font-size: 32px;
 }
