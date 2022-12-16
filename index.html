@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first CV</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="./assets/img/nod-icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteiner">
+
+        <header class="header">
+
+            <img class="header-img__avatar" src="./assets/img/dsvgqlcs6cp61.jpg" alt="My avatar">
+
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item">
+                        <a href="#about-me" class="header-nav__link">About me</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="#code" class="header-nav__link">Code</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="#language" class="header-nav__link">Language</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="#contact" class="header-nav__link">My Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <section id="abuout-me" class="main-about">
+
+                <h1 class="main__title">About me</h1>     
+                <section class="about-information">
+                    <h2 class="about-information__title">
+                        Uladzislau Kriwosheyeu
+                    </h2>
+                    <p class="about-information__text">
+                        I do not have much experience in programming, but it is not enough for a full-fledged start to a career as a programmer. 
+                        Therefore, my goal is to get programming experience as close to real as possible.
+                    </p>
+                </section>
+
+                <section class="about-skills">
+                    <h2 class="about-skills__title">
+                        My Skills:
+                    </h2>
+                    <ul class="about-skills__list">
+                        <li class="about-skills__item">
+                            <img src="./assets/img/HTML-icon.png" alt="HTML" class="skills__icon">
+                            <p class="about-skills__text">HTMl: 80%</p>
+                        </li>
+                        <li class="about-skills__item">
+                            <img src="./assets/img/Css-icon.png" alt="CSS" class="skills__icon">
+                            <p class="about-skills__text">CSS: 70%</p>
+                        </li>
+                        <li class="about-skills__item">
+                            <img src="./assets/img/js-icon.png" alt="JS" class="skills__icon">
+                            <p class="about-skills__text">JS: 40%</p>
+                        </li>
+                        <li class="about-skills__item">
+                            <img src="./assets/img/git-logo.png" alt="Git" class="skills__icon">
+                            <p class="about-skills__text">GIT: 60%</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="about-education">
+                    <h2 class="about-education__title">
+                        My Education:
+                    </h2>
+                    <ul class="about-education__list">
+                        <li class="about-education__item">
+                            <p class="about-education__text">
+                                ItClass in Gomel programmin course: 
+                                End in october 2018
+                            </p>
+                        </li>
+                        <li class="about-education__item">
+                            <p class="about-education__text">
+                                FreeCodeCamp:
+                                End in 2019
+                            </p>
+                        </li>
+                        <li class="about-education__item">
+                            <p class="about-education__text">
+                                Free course on <a href="https://code-basics.com/ru/languages/css" class="education__link">code-basics.com</a> CSS:
+                                End in 2022
+                            </p>
+                        </li>
+                        <li class="about-education__item">
+                            <p class="about-education__text">
+                                Free course on <a href="https://code-basics.com/ru/languages/html" class="education__link">code-basics.com</a> HTML:
+                                End in 2022
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="about-experiens">
+                    <h2 class="about-experiens__title">
+                        My work experiens:
+                    </h2>
+                    <p class="about-experiens__text">
+                        Not yet, at the beginning of its acquisition!!!
+                    </p>
+                </section>
+
+            </section>
+            
+            <section id="code" class="main-code">
+                <h2 class="code__title">
+                    Code:
+                </h2>
+                <div class="code__wrapper">
+                    <pre class="code__text">
+                        function pickIt(arr){
+                        let odd=[],even=[];
+                        for (i = 0; i &lt; arr.length; i++){
+                            arr[i]%2==1 ? odd.push(arr[i]) : even.push(arr[i]); 
+                        }  
+                        return [odd,even];
+                    }               
+                </pre>
+                </div>
+
+            </section>
+
+            <section id="language" class="main-language">
+                <h2 class="language__title">
+                    Language:
+                </h2>
+                <ul class="language__list">
+                    <li class="language__item">
+                        <p class="language__text">English: A1-A2</p>
+                    </li>
+                    <li class="language__item">
+                        <p class="language__text">Belarusian: Native</p>
+                    </li>
+                    <li class="language__item">
+                        <p class="language__text">Russian: Native</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contact" class="main-contact">
+                <h2 class="contact__title">
+                    My Contact:
+                </h2>
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <img src="./assets/img/discord-icon.png" alt="My Discord logo" class="contact__img">
+                        <p class="contant__text">
+                            My Discord: Djabł z Homlu#4395
+                        </p>
+                    </li>
+                    <li class="contact__item">
+                        <img src="./assets/img/github-icon.png" alt="My GitHub logo" class="contact__img">
+                        <p class="contant__text">
+                            My GitHub: IronWarrior13
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <section class="footer-content">
+                <ul class="footer-content__list">
+                    <li class="footer-content__item">
+                        <h2 class="footer-content__date">&copy; 2022</h2>
+                    </li>
+                    <li class="footer-content__item">
+                        <p class="footer-content__text">
+                            CodeWars:
+                        </p>
+                        <a href="https://www.codewars.com/users/IronWarrior13" class="footer-content__link">
+                            <img src="./assets/img/codewars_logo_icon.png" alt="CodeWars" class="footer-content__icon">
+                        </a>
+                    </li>
+                    <li class="footer-content__item">
+                        <p class="footer-content__text">
+                            GitHub:
+                        </p>
+                        <a href="https://github.com/IronWarrior13" class="footer-content__link">
+                            <img src="./assets/img/github-icon.png" alt="GitHub" class="footer-content__icon">
+                        </a>
+                    </li>
+                    <li class="footer-content__item">
+                        <p class="footer-content__text">
+                              RsSchool:  
+                        </p>
+                        <a href="https://rs.school/" class="footer-content__link">
+                            <img src="./assets/img/rs_school-icon.png" alt="rsschool" class="footer-rsschool__icon">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            
+        </footer>
+    </div>
+</body>
+</html>
