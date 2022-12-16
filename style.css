@@ -43,20 +43,24 @@ body{
 .header-nav__item{
     font-size: 24px;
     background: #000000;
-    color:#F8F9FC;
     border: 2px double #F8F9FC;
 
 }
 
 .header-nav__item:hover{
     background: #F8F9FC;
-    color:#000000;
     border: 2px double #000000;
 }
 
 .header-nav__link{
     padding: 0 20px;
-    line-height: 50px;   
+    line-height: 50px;
+    text-decoration: none;
+    color:#F8F9FC;
+
+}
+.header-nav__link:hover{
+    color: #000000;
 }
 
 .main-about{
