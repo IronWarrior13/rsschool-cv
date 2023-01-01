@@ -66,3 +66,67 @@ header{
     color: #E06733;
     transition: 0.3s;
 }
+
+.welcome{
+    background-color: #EDF2EC;
+}
+
+.welcome__wrapper{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.welcome__img{
+    margin: 62px 0px 62.64px 109px;
+}
+
+.welcome__img-item{
+    width: 448.8px;
+    height: 407.36px;
+}
+
+.welcom__conteiner{
+    width: 584px;
+    height: 340px;
+    margin: 94px 109px 98px 224.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.welcom__title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+
+.welcom__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.title__green{
+    color: #499A18;
+}
+
+.welcom__button{
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+    background: #EDF2EC;
+}
+
+.welcom__button:hover{
+    background: #E06733;
+    color: #EDF2EC;
+    transition: 0.3s;
+}
