@@ -130,3 +130,50 @@ header{
     color: #EDF2EC;
     transition: 0.3s;
 }
+
+.about{
+    max-height: 666px;
+}
+
+.about__conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__text-conteiner{
+   width: 650px; 
+   height: 350px;
+   margin: 161px 0px 155px 109px;
+}
+
+.about__title{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.title__orang{
+    color: #E06733;
+}
+
+.about__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+.about__img{
+    padding:  93px 109px 94px 154px;
+}
+
+.about__img-item{
+    width: 464px;
+    height: 479px;
+}
