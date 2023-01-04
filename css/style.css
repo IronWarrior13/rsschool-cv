@@ -126,9 +126,9 @@ header{
 }
 
 .welcom__button:hover{
+    transition: 0.3s;
     background: #E06733;
     color: #EDF2EC;
-    transition: 0.3s;
 }
 
 .about{
@@ -232,7 +232,7 @@ header{
 }
 
 .service__content{
-    margin-bottom: 79px;
+    padding-bottom: 79px;
     font-family: 'Inter';
 }
 
@@ -267,4 +267,120 @@ header{
     font-size: 16px;
     line-height: 20px;
     color: #717171;
+}
+
+.prices__conteiner{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    padding: 40px 0px 128.99px 109px;
+}
+
+.section__prices{
+    display: flex;
+    flex-direction: column;
+}
+
+.prices-section__text{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 60px;
+    color: #000000;
+
+}
+
+.prices__acordion-conteiner{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px 32px 0px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.acordion__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 250px;
+    height: 50px;
+    margin: 0 41px 34px 41px;
+
+    border-style: none;
+    background: #EDF2EC;
+    border-radius: 20px;
+}
+
+.acordion__button:last-child{
+    margin-bottom: 0px;
+}
+
+.acordion__button-text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 40px;
+}
+
+.accordion__arrow{
+    width: 4px;
+    height: 2.53px;
+    padding: 6.83px 6px;
+    border-radius: 50%;
+    margin-right: 40px;
+    background: #D9D9D9;
+}
+
+.call__img{
+    width: 152px;
+    height: 174.99px;
+}
+
+.section__call{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: end;
+}
+
+.call__title{
+    padding: 0px 109px 0px 0px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.call__button{
+    padding: 12px 33.96px 12px 30.04px;
+    margin: 0px 109px 39px 0px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    border: 1px solid #E06733;
+    border-radius: 5px;
+
+    background: #FFFFFF;
+    color: #E06733;
+}
+
+.call__button:hover{
+    transition: 0.3s;
+    background: #E06733;
+    color: #FFFFFF;
+}
+
+.call__img-wrapper{
+    padding-right: 109px;
+}
+
+.call__img{
+    width: 152px;
+    height: 174.99px;
 }
