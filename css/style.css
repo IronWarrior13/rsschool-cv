@@ -302,6 +302,8 @@ header{
     color: #717171;
 }
 
+/* Price Section */
+
 .prices__conteiner{
     display: flex;
     justify-content: space-between;
@@ -331,7 +333,7 @@ header{
     border-radius: 20px;
 }
 
-.acordion__button{
+.acordion__item{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -349,18 +351,18 @@ header{
     border-radius: 20px;
 }
 
-.acordion__button:last-child{
+.acordion__item:last-child{
     margin-bottom: 0px;
 }
 
-.acordion__button-text{
+.acordion__text{
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     margin-left: 40px;
 }
 
-.acordion__button::before{
+.acordion__item::before{
     position: absolute;
     z-index: 3;
     content: url(/assets/img/arrow_accordion.svg);
@@ -370,7 +372,7 @@ header{
     top: 12px;
 }
 
-.acordion__button::after{
+.acordion__item::after{
     position: absolute;
     z-index: 2;
     content: url(/assets/img/background_accordion.svg);
@@ -379,6 +381,8 @@ header{
     height: 16px;
     width: 16px;
 }
+
+/* Section Call */
 
 .call__img{
     width: 152px;
@@ -393,7 +397,7 @@ header{
 }
 
 .call__title{
-    padding: 0px 109px 0px 0px;
+    padding: 6px 109px 0px 0px;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
@@ -401,7 +405,7 @@ header{
 
 .call__button{
     padding: 12px 33.96px 12px 30.04px;
-    margin: 0px 109px 39px 0px;
+    margin: 7px 108px 38px 0px;
 
     font-family: 'Inika';
     font-style: normal;
@@ -448,7 +452,7 @@ header{
 }
 
 .contact__title{
-    padding: 30px 64px 0px 113px;
+    padding: 27px 68px 0px 113px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
