@@ -18,7 +18,8 @@ header{
     align-items: baseline;
     justify-content: space-between;
     text-align: center;
-    padding: 26px 109px 26px 111px;
+    padding: 26px 146px 26px 76px;
+    
 }
 
 .header__logo-item{
@@ -43,7 +44,7 @@ header{
 }
 
 .header__item{
-    margin-right: 42px;
+    margin-right: 47px;
 }
 
 .header__item:last-child{
