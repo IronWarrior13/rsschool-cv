@@ -19,19 +19,15 @@ header{
     padding: 26px 109px 26px 111px;
 }
 
-.header__logo{
-    display: flex;
-    align-items: baseline;
-    flex-direction: row;
-    
-}
-
 .header__logo-item{
     height: 20px;
     width: 20px;
+    text-decoration: none;
 }
 
-.header__logo-text{
+.header__logo-item:after{
+    content: 'Plants';
+    margin-left: -6px;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
@@ -304,6 +300,9 @@ header{
     justify-content: space-between;
     align-items: center;
 
+    position: relative;
+    z-index: 1;
+
     width: 250px;
     height: 50px;
     margin: 0 41px 34px 41px;
@@ -324,13 +323,24 @@ header{
     margin-left: 40px;
 }
 
-.accordion__arrow{
+.acordion__button::before{
+    position: absolute;
+    z-index: 3;
+    content: url(/assets/img/arrow_accordion.svg);
     width: 4px;
-    height: 2.53px;
-    padding: 6.83px 6px;
-    border-radius: 50%;
-    margin-right: 40px;
-    background: #D9D9D9;
+    height: 2.35px;
+    right: 49px;
+    top: 12px;
+}
+
+.acordion__button::after{
+    position: absolute;
+    z-index: 2;
+    content: url(/assets/img/background_accordion.svg);
+    right: 42px;
+    top: 16px;
+    height: 16px;
+    width: 16px;
 }
 
 .call__img{
@@ -383,4 +393,167 @@ header{
 .call__img{
     width: 152px;
     height: 174.99px;
+}
+
+.contact{
+    background: #EDF2EC;
+}
+
+.contact__conteiner{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.contact__img{
+    width: 400px;
+    height: 496.99px;
+    padding: 53px 0px 0px 109px;
+}
+
+.contact__title{
+    padding: 30px 64px 0px 113px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.contact__dropdown{
+    margin: 149px 109px 0px 0px;
+    font-family: 'Inter';
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+
+
+.dropdown__title-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    z-index: 1;
+
+    width: 450px;
+    height: 50px;
+}
+
+.dropdown__title{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+}
+
+.dropdown__title-conteiner::before{
+    position: absolute;
+    z-index: 2;
+    content: url(/assets/img/dropdown_bg_no-active.svg);
+    width: 16px;
+    height: 16px;
+    right: 35px;
+    top: 17px;
+}
+
+.dropdown__title-conteiner::after{
+    position: absolute;
+    z-index: 3;
+    content: url(/assets/img/arrow_dropdown_no-active.svg);
+    width: 4px;
+    height: 2.35px;
+    right: 41.5px;
+    top: 13px;
+}
+
+
+.contact__dropdown-content{
+    display: none;
+    background: #DCE9D9;
+}
+
+.dropdown__item{
+    padding: 0px 229px 0px 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #D9D9D9;
+    color: #499A18;
+}
+
+.dropdown__item:first-child{
+    padding-top: 27px;
+    margin: 0px 35px 0px 35px;
+}
+
+.dropdown-item:last-child{
+    margin-bottom: 31px;
+}
+
+.dropdown-item:hover{
+    border-bottom: 1px solid #717171; 
+    color: #717171;  
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.footer__data-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__data-copy{
+    padding: 40px 0px 40px 109px;
+}
+
+.footer__data-age{
+    padding: 40px 0px 40px 20px;
+}
+
+.footet__data-git{
+    padding: 60px 0px 40px 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__title-text{
+    padding: 40px 0px;
+}
+
+.footer__titte-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__social{
+    padding-right: 109px;
+}
+
+.footer__social-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__social-link{
+    list-style: none;
+}
+
+.footer__social-icon{
+    height: 30px;
+    width: 30px;
+    padding: 51.68px 22.68px 51.68px 0px;
 }
