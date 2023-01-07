@@ -436,6 +436,8 @@ header{
     height: 174.99px;
 }
 
+/* Contact Section */
+
 .contact{
     background: #EDF2EC;
 }
@@ -469,6 +471,7 @@ header{
     border-radius: 0px;
 }
 
+/*Drop Down Section*/
 
 .dropdown__title-conteiner{
     display: flex;
@@ -551,27 +554,32 @@ header{
     line-height: 50px;
 }
 
+/* Footer Section*/
+
 .footer__data-conteiner{
     display: flex;
     justify-content: space-between;
 }
 
 .footer__data-copy{
-    padding: 40px 0px 40px 109px;
+    padding: 20px 0px 40px 109px;
 }
 
 .footer__data-age{
-    padding: 40px 0px 40px 20px;
+    padding: 20px 0px 40px 20px;
 }
 
 .footet__data-git{
-    padding: 60px 0px 40px 20px;
+    padding: 40px 0px 40px 20px;
     text-decoration: none;
     color: #000000;
 }
 
 .footer__title-text{
-    padding: 40px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 40px 0px 0px 60px;
 }
 
 .footer__titte-link{
@@ -580,7 +588,8 @@ header{
 }
 
 .footer__social{
-    padding-right: 109px;
+    
+    margin: -22px 86px 0px 0px;
 }
 
 .footer__social-list{
