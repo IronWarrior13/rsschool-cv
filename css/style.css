@@ -6,6 +6,7 @@ html{
     margin: 0 auto;
 }
 
+/*header  section */
 header{
     background-color: #EDF2EC;
     font-family: 'Inika';
@@ -66,6 +67,8 @@ header{
     transition: 0.3s;
 }
 
+/* Welcome Section */
+
 .welcome{
     background-color: #EDF2EC;
 }
@@ -88,8 +91,8 @@ header{
 
 .welcom__conteiner{
     width: 584px;
-    height: 340px;
-    margin: 94px 109px 98px 224.2px;
+    height: 374px;
+    margin: 66px 109px 98px 224.2px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -107,6 +110,8 @@ header{
     font-size: 20px;
     line-height: 35px;
     color: #636060;
+    margin-top: 11px;
+    margin-bottom: 43px;
 }
 
 .title__green{
@@ -129,6 +134,8 @@ header{
     background: #E06733;
     color: #EDF2EC;
 }
+
+/* About Section */
 
 .about{
     max-height: 666px;
