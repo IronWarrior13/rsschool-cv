@@ -263,7 +263,7 @@ header{
 
 .conteiner__service{
     margin-left: 115px;
-    margin-bottom: 93px;
+    margin-bottom: 58px;
     text-align: center;
     border: 1px solid #E3E1D5;
     border-radius: 20px 20px 20px 20px;
@@ -284,7 +284,7 @@ header{
 }
 
 .service-content__text-title{
-    padding-top: 7px;
+    margin-top: 28px;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
@@ -296,6 +296,7 @@ header{
 }
 
 .service-content__text{
+    padding-bottom: 37px;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -317,10 +318,11 @@ header{
 }
 
 .prices-section__text{
+    margin-bottom: 61px;
+    margin-top: 0px;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    margin-bottom: 60px;
     color: #000000;
 
 }
@@ -365,7 +367,7 @@ header{
 .acordion__item::before{
     position: absolute;
     z-index: 3;
-    content: url(/assets/img/arrow_accordion.svg);
+    content: url(/assets/svg/arrow_accordion.svg);
     width: 4px;
     height: 2.35px;
     right: 49px;
@@ -375,7 +377,7 @@ header{
 .acordion__item::after{
     position: absolute;
     z-index: 2;
-    content: url(/assets/img/background_accordion.svg);
+    content: url(/assets/svg/background_accordion.svg);
     right: 42px;
     top: 16px;
     height: 16px;
@@ -397,7 +399,7 @@ header{
 }
 
 .call__title{
-    padding: 6px 109px 0px 0px;
+    padding: 0px 109px 0px 0px;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
@@ -405,7 +407,7 @@ header{
 
 .call__button{
     padding: 12px 33.96px 12px 30.04px;
-    margin: 7px 108px 38px 0px;
+    margin: 40px 108px 38px 0px;
 
     font-family: 'Inika';
     font-style: normal;
@@ -498,7 +500,7 @@ header{
 .dropdown__title-conteiner::before{
     position: absolute;
     z-index: 2;
-    content: url(/assets/img/dropdown_bg_no-active.svg);
+    content: url(/assets/svg/dropdown_bg_no-active.svg);
     width: 16px;
     height: 16px;
     right: 35px;
@@ -508,7 +510,7 @@ header{
 .dropdown__title-conteiner::after{
     position: absolute;
     z-index: 3;
-    content: url(/assets/img/arrow_dropdown_no-active.svg);
+    content: url(/assets/svg/arrow_dropdown_no-active.svg);
     width: 4px;
     height: 2.35px;
     right: 41.5px;
