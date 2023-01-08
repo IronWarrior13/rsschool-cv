@@ -19,7 +19,7 @@ header{
     align-items: baseline;
     justify-content: space-between;
     text-align: center;
-    padding: 26px 146px 26px 76px;
+    padding: 33px 110px 20px 112px;
     
 }
 
@@ -81,7 +81,7 @@ header{
 }
 
 .welcome__img{
-    margin: 62px 0px 62.64px 109px;
+    margin: 68px 0px 43.64px 109px;
 }
 
 .welcome__img-item{
@@ -92,7 +92,7 @@ header{
 .welcom__conteiner{
     width: 584px;
     height: 374px;
-    margin: 66px 109px 98px 224.2px;
+    margin: 70px 109px 92px 224.2px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -138,7 +138,7 @@ header{
 /* About Section */
 
 .about{
-    max-height: 666px;
+    max-height: 669px;
 }
 
 .about__conteiner{
@@ -252,7 +252,7 @@ header{
 /* Content Service Section*/
 
 .service__content{
-    padding-bottom: 79px;
+    padding-bottom: 68px;
     font-family: 'Inter';
 }
 
@@ -292,7 +292,7 @@ header{
 }
 
 .content__text-conteiner{
-    margin: -24px;
+    margin: -25px;
 }
 
 .service-content__text{
@@ -309,7 +309,7 @@ header{
     display: flex;
     justify-content: space-between;
     font-family: 'Inter';
-    padding: 40px 0px 128.99px 109px;
+    padding: 38px 0px 108.99px 109px;
 }
 
 .section__prices{
@@ -318,7 +318,7 @@ header{
 }
 
 .prices-section__text{
-    margin-bottom: 61px;
+    margin-bottom: 59px;
     margin-top: 0px;
     font-weight: 700;
     font-size: 40px;
@@ -407,7 +407,7 @@ header{
 
 .call__button{
     padding: 12px 33.96px 12px 30.04px;
-    margin: 40px 108px 38px 0px;
+    margin: 38px 108px 38px 0px;
 
     font-family: 'Inika';
     font-style: normal;
@@ -564,15 +564,15 @@ header{
 }
 
 .footer__data-copy{
-    padding: 20px 0px 40px 109px;
+    padding: 19px 0px 40px 109px;
 }
 
 .footer__data-age{
-    padding: 20px 0px 40px 20px;
+    padding: 19px 0px 40px 20px;
 }
 
 .footet__data-git{
-    padding: 40px 0px 40px 20px;
+    padding: 38px 0px 40px 20px;
     text-decoration: none;
     color: #000000;
 }
@@ -581,7 +581,7 @@ header{
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
-    margin: 40px 0px 0px 60px;
+    margin: 38px 0px 0px 60px;
 }
 
 .footer__titte-link{
@@ -591,7 +591,7 @@ header{
 
 .footer__social{
     
-    margin: -22px 86px 0px 0px;
+    margin: -23px 86px 0px 0px;
 }
 
 .footer__social-list{
