@@ -34,9 +34,9 @@
      let prop = name.split(' ');
      prop[0] = prop[0].slice(0,1);
      prop[1] = prop[1].slice(0,1);
-    
- return prop.join('.'); 
-}
+     return prop.join('.'); 
+ }
+
 `
 ===
 
