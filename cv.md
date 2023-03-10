@@ -31,7 +31,7 @@
 `
  function abbrevName(name){
      name = name.toUpperCase();
-     let prop = name.split(/` /`);
+     let prop = name.split(\` \`);
      prop[0] = prop[0].slice(0,1);
      prop[1] = prop[1].slice(0,1);
     
